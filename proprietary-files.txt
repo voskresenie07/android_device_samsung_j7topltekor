@@ -50,3 +50,7 @@ vendor/etc/wifi/bcmdhd_sta.bin_c5
 vendor/etc/wifi/bcmdhd_sta.bin_c5_blob
 vendor/etc/wifi/nvram.txt_c5
 vendor/firmware/bcm4345C5.hcd
+
+
+vendor/lib/libreference-ril.so
+vendor/lib/libril.so
