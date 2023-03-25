@@ -6,7 +6,7 @@
 
 set -e
 
-DEVICE=j7toplteskt
+DEVICE=j7topltekor
 VENDOR=samsung
 
 export INITIAL_COPYRIGHT_YEAR=2018
