@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/j7toplteskt
+LOCAL_PATH := device/samsung/j7topltekor
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -25,8 +25,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_j7toplteskt
-PRODUCT_DEVICE := j7toplteskt
+PRODUCT_NAME := lineage_j7topltekor
+PRODUCT_DEVICE := j7topltekor
 PRODUCT_MANUFACTURER := Samsung
 PRODUCT_BRAND := Samsung
 PRODUCT_MODEL := Samsung Galaxy Wide 3
