@@ -19,7 +19,7 @@ DEVICE_PATH := device/samsung/j7toplteskt
 
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := j7toplteskt
+TARGET_OTA_ASSERT_DEVICE := j7topltekor
 
 # Bluetooth
 BOARD_HAVE_BLUETOOTH := true
@@ -29,8 +29,8 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 TARGET_KERNEL_CONFIG := exynos7870-j7toplteskt_defconfig
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_j7toplteskt
-TARGET_RECOVERY_DEVICE_MODULES := libinit_j7toplteskt
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_j7topltekor
+TARGET_RECOVERY_DEVICE_MODULES := libinit_j7topltekor
 
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)/releasetools
