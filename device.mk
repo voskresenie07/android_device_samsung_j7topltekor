@@ -14,10 +14,10 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/samsung/j7toplteskt
+DEVICE_PATH := device/samsung/j7topltekor
 
 # Soong namespaces
-PRODUCT_SOONG_NAMESPACES += device/samsung/j7toplteskt
+PRODUCT_SOONG_NAMESPACES += device/samsung/j7topltekor
 
 # Bootanimation
 TARGET_SCREEN_HEIGHT := 1280
@@ -67,4 +67,4 @@ PRODUCT_COPY_FILES += \
 # Inherit from common
 $(call inherit-product, device/samsung/universal7870-common/device-common.mk)
 
-$(call inherit-product-if-exists, vendor/samsung/j7toplteskt/j7toplteskt-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/j7topltekor/j7topltekor-vendor.mk)
