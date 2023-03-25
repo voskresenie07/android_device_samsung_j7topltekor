@@ -15,9 +15,9 @@
 //
 
 cc_library_static {
-    name: "libinit_j7toplteskt",
+    name: "libinit_j7topltekor",
     recovery_available: true,
-    srcs: ["init_j7toplteskt.cpp"],
+    srcs: ["init_j7topltekor.cpp"],
     include_dirs: [
         "system/core/base/include",
         "system/core/init"
