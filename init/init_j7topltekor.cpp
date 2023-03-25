@@ -86,7 +86,7 @@ void vendor_load_properties()
     if (bootloader.find("J737S") == 0) {
     /* SM-J737S */
         property_override_quad("ro.product.model", "ro.product.odm.model", "ro.product.system.model", "ro.product.vendor.model", "SM-J737S");
-        property_override_quad("ro.product.name", "ro.product.odm.name", "ro.product.system.name", "ro.product.vendor.name", "j7toplteskt");
+        property_override_quad("ro.product.name", "ro.product.odm.name", "ro.product.system.name", "ro.product.vendor.name", "j7topltekor");
 
         init_dsds();
 
@@ -95,7 +95,7 @@ void vendor_load_properties()
     /* Common properties*/
     property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/redfin/redfin:11/RQ3A.210705.001/7380771:user/release-keys");
     property_override("ro.build.description", "samsung/m10ltedx/m10lte:10/QP1A.190711.020/M105GDXS8CVA1:user/release-keys");
-    property_override_quad("ro.product.device", "ro.product.odm.device", "ro.product.system.device", "ro.product.vendor.device", "j7toplteskt");
+    property_override_quad("ro.product.device", "ro.product.odm.device", "ro.product.system.device", "ro.product.vendor.device", "j7topltekor");
 
     std::string device = GetProperty("ro.product.device", "");
     LOG(ERROR) << "Found bootloader id %s setting build properties for %s device\n" << bootloader.c_str() << device.c_str();
