@@ -14,10 +14,10 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/j7toplteskt
+LOCAL_PATH := device/samsung/j7topltekor
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_PATH)/lineage_j7toplteskt.mk
+    $(LOCAL_PATH)/lineage_j7topltekor.mk
 
 COMMON_LUNCH_CHOICES := \
     lineage_j7toplteskt-user \
