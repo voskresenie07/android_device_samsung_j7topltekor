@@ -7,7 +7,7 @@
 
 set -e
 
-DEVICE=j7toplteskt
+DEVICE=j7topltekor
 VENDOR=samsung
 
 # Load extract_utils and do some sanity checks
