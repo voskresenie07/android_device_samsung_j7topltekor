@@ -20,6 +20,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_PATH)/lineage_j7topltekor.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_j7toplteskt-user \
-    lineage_j7toplteskt-userdebug \
-    lineage_j7toplteskt-eng
+    lineage_j7topltekor-user \
+    lineage_j7topltekor-userdebug \
+    lineage_j7topltekor-eng
