@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-DEVICE_PATH := device/samsung/j7toplteskt
+DEVICE_PATH := device/samsung/j7topltekor
 
 # Audio
 
@@ -26,7 +26,7 @@ BOARD_HAVE_BLUETOOTH := true
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 
 # Kernel
-TARGET_KERNEL_CONFIG := exynos7870-j7toplteskt_defconfig
+TARGET_KERNEL_CONFIG := exynos7870-j7topltekor_defconfig
 
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_j7topltekor
@@ -54,4 +54,4 @@ WIFI_BAND                        := 802_11_ABG
 -include device/samsung/universal7870-common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
--include vendor/samsung/m10lte/BoardConfigVendor.mk
+-include vendor/samsung/j7topltekor/BoardConfigVendor.mk
